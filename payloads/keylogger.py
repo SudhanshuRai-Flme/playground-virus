@@ -16,3 +16,4 @@ def starter():
     except Exception as e:
         os.remove(os.path.join(os.getenv("APPDATA"), "keylogger.txt"))
         os._exit(1)
+        
