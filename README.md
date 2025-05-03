@@ -1,8 +1,8 @@
 # playground-virus
 Basic virus made to understand the working of virus on systems and how they use various methods like persistence(i.e, being able to run even beyond the session the virus was installed in) or how they shread the virus
         **The program is just for educational purpose to get a rundown how what virus' try to do in our systems. Please run this program on a sandbox or VM(definitely not on your friends system by just disabling the antivirus for a few mins) environment**
-
-PlaygroundVirus/
+```
+PlaygroundVirus
 ├── main.py # The main virus spearhead which runs everything
 ├── persistence.py # Hides in %APPDATA% and creates a Run key
 ├── spreader.py # Drops copies into Desktop, Downloads, Documents, and USBs
@@ -13,7 +13,7 @@ PlaygroundVirus/
 │ ├── keylogger.py # Logs keystrokes to %APPDATA%\keylogger.txt
 │ ├── fake_msg.py # Shows fake popups when browser or explorer opens(just to mess with people)
 │ └── cpu_stress.py # Eats CPU with background threads
-
+```
 ## Steps to run
 1. Clone the repo into a sandbox or VM environment(*wink*)
 2. Open the terminal in the cloned repo folder
