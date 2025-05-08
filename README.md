@@ -16,6 +16,9 @@ PlaygroundVirus
 ```
 ## Steps to run
 1. Clone the repo into a sandbox or VM environment(*wink*)
+    ```
+    git clone https://github.com/SudhanshuRai-Flme/playground-virus.git
+    ```
 2. Open the terminal in the cloned repo folder
 3. Install the required python modules or just run the below command in your opened terminal
     ```
